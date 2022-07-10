@@ -20,13 +20,17 @@ export default {
 .app  {
   height: 110vh;
   background-color: var(--primary);
-  @media (max-width: $sm) {
+}
+
+@media (max-width: $sm) {
+  .app {
     background-color: black;
   }
-  @media (max-width: $xs) {
+}
+@media (max-width: $xs) {
+  .app {
     background-color: red;
   }
-
 }
 
 </style>

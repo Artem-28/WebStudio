@@ -27,6 +27,7 @@ export default {
 .page-wrapper {
   height: 100%;
   width: 100%;
+  background: blue;
 }
 
 </style>
